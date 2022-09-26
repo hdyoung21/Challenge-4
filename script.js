@@ -10,54 +10,54 @@ var secondsLeft = 60;
 // store the questions and the answer choices inside an object, and store the objects inside an array
 var quizQuestions = [
   {
-    question: "How are you feeling?",
-    choice0: "Ok",
-    choice1: "Meh",
-    choice2: "So-so",
-    choice3: "Great!",
-    corret: "Meh"
+    question: "What is Matt's highest finishing place",
+    choice0: "1st",
+    choice1: "3rd",
+    choice2: "4th",
+    choice3: "Last place",
+    corret: "3rd"
   },
   {
-    question: "How is James feeling?",
-    choice1: "Ok",
-    choice2: "Meh",
-    choice3: "So-so",
-    choice4: "Great!",
-    corret: "Ok"
+    question: "Who has had the worst record for any season?",
+    choice1: "Will",
+    choice2: "Hunter",
+    choice3: "Vernon",
+    choice4: "Erik",
+    corret: "Hunter"
   },
   {
-    question: "How is James feeling?",
-    choice1: "Ok",
-    choice2: "Meh",
-    choice3: "So-so",
-    choice4: "Great!",
-    corret: "Ok"
+    question: "Who has made the most transactions in league history?",
+    choice1: "Chris",
+    choice2: "Will",
+    choice3: "Jaron",
+    choice4: "Other",
+    corret: "Jaron"
   },
   {
-    question: "How is James feeling?",
-    choice1: "Ok",
-    choice2: "Meh",
-    choice3: "So-so",
-    choice4: "Great!",
-    corret: "Ok"
+    question: "Who has the most 2nd place finishes?",
+    choice1: "Hunter",
+    choice2: "Will",
+    choice3: "Jaron",
+    choice4: "All",
+    corret: "All"
   },
   {
-    question: "How is James feeling?",
-    choice1: "Ok",
-    choice2: "Meh",
-    choice3: "So-so",
-    choice4: "Great!",
-    corret: "Ok"
+    question: "Why does Jaron need so many transactions?",
+    choice1: "We dont know",
+    choice2: "The limit does not exist",
+    choice3: "He wants to ruin the waiver wire",
+    choice4: "He is just confused",
+    corret: "He is just confused"
   },
   {
-    question: "How is James feeling?",
-    choice1: "Ok",
-    choice2: "Meh",
-    choice3: "So-so",
-    choice4: "Great!",
-    corret: "Ok"
+    question: "Who was the first running back taken in our 2015 draft?",
+    choice1: "Adrian Peterson",
+    choice2: "Matt Forte",
+    choice3: "Shady McCoy",
+    choice4: "DeMarco Murray",
+    corret: "Shady McCoy"
   }, 
-  // and so on
+  
 ]
 var currentQuestion = 0;
 
